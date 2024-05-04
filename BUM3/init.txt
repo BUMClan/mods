@@ -1,0 +1,32 @@
+no_lead 1
+;When set to one players no longer have to lead(aim in front of target) to hit
+custom_sleep 8
+;reduces ping times and improves hitreg by making the halo thread run every 16ms instead of every 33ms
+;changing it to below 16 can cause odd issues for players with low ping.
+antihalofp 1
+;IP trying to connect to the server more than 8 times in a short time period will be added to IP banlist for 5 minutes. (recommended)
+full_ipban 1
+;If enabled, all packets from the banned IPs will be blocked.
+;otherwise only join requests and server queries.
+;enabling it with a huge ipban list can cause the server lag and the pings increase.
+auto_update 1
+aimbot_ban 20000 4 1
+ping_kick 750
+lua 1
+log 1
+msg_prefix "*YOUR_NAME* "
+lua_load seat_mod
+lua_load dr
+lua_load dns
+lua_load glitch_v2
+lua_load glitch2_v2
+lua_load glitch3_v2
+lua_load glitch_chat
+lua_load admin_botscores3
+lua_load hitscan
+lua_load replace
+lua_load flash_tele
+lua_load boost_test
+lua_load team_balance
+lua_load t_bag_tele
+lua_load bum_tank_shell

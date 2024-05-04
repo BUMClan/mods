@@ -1,0 +1,9 @@
+sv_log_rotation_threshold 16384
+sv_name "YOUR_NAME"
+sv_public True
+sv_maxplayers 16
+sv_rcon_password rconhere123
+sv_mapcycle_timeout 10
+sv_mapcycle_add bloodgulch BUM
+sv_mapcycle_begin
+load
